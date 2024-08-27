@@ -29,7 +29,7 @@ class Solution:
                 cnt = 1
             
             if cnt < 3:
-                answer.append(c)
+                answer += c
             
             prev = c
         
